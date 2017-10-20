@@ -5,9 +5,12 @@ namespace Framework;
 class Autoloader
 {
     
-  static function Autoload($class)
+  public static function Autoload($class)
   {
-      require 'Framework/' . $class . 'php';
+    $path = str_replace( "\\", DIRECTORY_SEPARATOR, $class );
+    
+    $file = APP_PATH . DIRECTORY_SEPARATOR . $path . '.php';
+	  include( $file );
   }
   
   static function Register()
