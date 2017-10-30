@@ -10,7 +10,8 @@ class Autoloader
     $path = str_replace( "\\", DIRECTORY_SEPARATOR, $class );
     
     $file = APP_PATH . DIRECTORY_SEPARATOR . $path . '.php';
-	  include( $file );
+    
+    include( $file );
   }
   
   static function Register()

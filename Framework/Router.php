@@ -28,6 +28,7 @@ class Router
        {
           $controllerClass = 'App\Controller\\' . ucfirst($CurrentRouteShortcut['entity']) . 'Controller';
           return new $controllerClass($CurrentRouteShortcut['action'],$params);
+          
        }
        else
        {
