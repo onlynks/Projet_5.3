@@ -2,6 +2,9 @@
 //define the main file
 define( "APP_PATH", dirname( dirname( __FILE__ ) ) );
 
+//charge composer's classes
+require(APP_PATH . '/vendor/autoload.php');
+
 // Load and use the Autoloader
 include ('../Framework/Autoloader.php');
 Framework\Autoloader::Register();
