@@ -19,7 +19,11 @@ Framework\Autoloader::Register();
 Framework\Router::hydrate(App\Config\Routes::$routes);
 
 //check if the current URL match with one of our routes, if it does, dispatch to the right controller
-Framework\Router::matchAndDispatch($_SERVER[REQUEST_URI]);
+Framework\Router::matchAndDispatch($_SERVER[REQUEST_URI], $_POST);
+
+include (APP_PATH .'/Framework/post.php');
+
+var_dump($_POST);
 
 
 

@@ -12,17 +12,19 @@ class Router
         self::$routes = $routesAdded;
     }
     
-    public static function matchAndDispatch( $currentRoute )
+    public static function matchAndDispatch( $currentRoute, $post )
     {
         
        //Array creation from URL
-       $data = explode('/',$currentRoute);
+       $data = explode('-',$currentRoute);
        $shortcut = array_slice($data,3,3);
        
        
        //Swap to associative array and define params
        $CurrentRouteShortcut = array('entity' => $shortcut[0], 'action' => $shortcut[1]);
-       $params = $shortcut[2];
+       $params = array('post'=> $post, 'id'=> $shortcut[2]);
+       
+       var_dump($params);
        
        if(in_array($CurrentRouteShortcut,self::$routes))
        {
