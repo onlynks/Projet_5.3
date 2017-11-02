@@ -6,21 +6,22 @@ use Framework\Manager;
 
 class PostManager extends Manager
 {
-    public $pdo;
+    public $db;
     
     public function __construct()
     {
-        $this->pdo = parent::$db;
-        
+        $this->db = parent::getDatabase();
     }
     
-     public function add(Post $post)
+     public function add($params)
    {
-     $sql = 'INSERT INTO post (date_post, titre_post, auteur_post, description) VALUE (NOW(), :titre_post, :auteur_post, :description)';
-     $params = [':titre_post' => $post->getTitre_post(), ':auteur_post' => $post->getAuteur_post(), ':description' => $post->getDescription()];
+     $postParams = $params['post'];
+     var_dump($postParams);
      
-     $this->pdo->execute($sql, $params);
+     $sql = 'INSERT INTO post (datePost, titlePost, authorPost, descriptionPost) VALUE (NOW(), :titlePost, :authorPost, :descriptionPost)';
+     $params = [':titlePost' => $postParams['titlePost'], ':authorPost' => $postParams['authorPost'], ':descriptionPost' => $postParams['description']];
      
+     $this->db->execute($sql, $params);
    }
    
    /**

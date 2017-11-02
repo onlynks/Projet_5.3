@@ -1,6 +1,9 @@
 <?php
+
+
 //define the main file
 define( "APP_PATH", dirname( dirname( __FILE__ ) ) );
+
 
 //charge composer's classes
 require(APP_PATH . '/vendor/autoload.php');
@@ -19,11 +22,10 @@ Framework\Autoloader::Register();
 Framework\Router::hydrate(App\Config\Routes::$routes);
 
 //check if the current URL match with one of our routes, if it does, dispatch to the right controller
-Framework\Router::matchAndDispatch($_SERVER[REQUEST_URI], $_POST);
+Framework\Router::matchAndDispatch();
+
 
 include (APP_PATH .'/Framework/post.php');
-
-var_dump($_POST);
 
 
 

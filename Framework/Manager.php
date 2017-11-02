@@ -6,10 +6,11 @@ class Manager
 {
     public static $db;
     
-    public function __construct()
+    public static function getDatabase()
     {
         $database = new Database();
-        self::$db = $database->pdo;
+        self::$db = $database;
+        return self::$db;
     }
 }
 
