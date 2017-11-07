@@ -6,22 +6,30 @@ use Framework\Manager;
 
 class PostManager extends Manager
 {
-    public $db;
+    public static $db;
     
     public function __construct()
     {
         $this->db = parent::getDatabase();
     }
     
-     public function add($params)
+     public function add($param)
    {
-     $postParams = $params['post'];
-     var_dump($postParams);
+     if(!empty($param['post']))
+     {
+     $postParams = $param['post'];
      
      $sql = 'INSERT INTO post (datePost, titlePost, authorPost, descriptionPost) VALUE (NOW(), :titlePost, :authorPost, :descriptionPost)';
-     $params = [':titlePost' => $postParams['titlePost'], ':authorPost' => $postParams['authorPost'], ':descriptionPost' => $postParams['description']];
+     $params = [':titlePost' => $postParams['titlePost'], ':authorPost' => $postParams['authorPost'], ':descriptionPost' => $postParams['descriptionPost']];
      
      $this->db->execute($sql, $params);
+     
+     return 'Post ajouté avec succés!';
+     }
+     else
+     {
+         return 'Veuillez remplir tous les champs';
+     }
    }
    
    /**
@@ -33,38 +41,29 @@ class PostManager extends Manager
     */
     public function read($id)
     {
-
+      $idPost = $id['id'];
       
-  
-      /*
-      $q = $this->pdo->query('SELECT * FROM post WHERE id = '.$id);
-      $donnees = $q->fetch(PDO::FETCH_ASSOC);
+      $query = $this->db->select('post', $idPost);
+     
+      $post = new \App\Entity\Post($query);
+     
       
-      return new Post($donnees);
-    */
-      $data = $this->pdo->queryOne('SELECT * FROM post WHERE id = :id', [':id' => $id]);
-  
-      return new Post($data);
-    
+      return $post;
+      
     }
  
-    public function readAll($limit = 5)
+    public function getList($params)
     {
-     // $sql = 'SELECT * FROM post ORDER BY date_post LIMIT 0,:limit';
-     // $params = [':limit'=>$limit];
      
-     $sql = 'SELECT * FROM post ORDER BY date_post DESC LIMIT 0,'.$limit;
-     $params = [];
+     $query = $this->db->select('post',null,10);
      
-     $results = $this->pdo->query($sql,$params);
-     
-     $posts = [];
-     
-     foreach($results as $postData)
+     foreach($query as $post)
      {
-     $posts[] = new Post($postData);
+     $posts[] = new \App\Entity\Post($post);
+     
      }
      return $posts;
+     
     }
    
     /**
@@ -73,11 +72,21 @@ class PostManager extends Manager
      * 
      * @return true en cas de succès ou false en cas d'erreur
      */
-     public function update(Post $post)
+     public function update($params)
      {
-       $sql = 'UPDATE post SET date_post = NOW(), titre_post = :titre_post, auteur_post = :auteur_post, description = :description  WHERE id = :id LIMIT 1';
-       $params = [':titre_post' => $post->getTitre_post(), ':auteur_post' => $post->getAuteur_post(), ':description' => $post->getDescription(), ':id' => $post->getId()];
-       $this->pdo->execute($sql,$params);
+         if(!empty($params['post']))
+         {
+           $id = $params['id'];
+           $postParam = $params['post'];
+           $sql = 'UPDATE post SET datePost = NOW(), titlePost = :titlePost, authorPost = :authorPost, descriptionPost = :descriptionPost  WHERE id = :id LIMIT 1';
+           $params = [':titlePost' => $postParam['titlePost'], ':authorPost' => $postParam['authorPost'], ':descriptionPost' => $postParam['descriptionPost'], ':id' => $id];
+           $this->db->execute($sql,$params);
+           return 'Tous les changements ont été effectués avec succès!';
+         }
+         else
+         {
+         return 'Veuillez remplir tous les champs';  
+         }
      }
      
      /**
@@ -87,10 +96,12 @@ class PostManager extends Manager
       * 
       * @return true en cas de succès ou false en cas d'erreur
       */
-      public function delete(Post $post)
+      public function delete($param)
       {
+        $id = $param['id'];
+        
         $sql = 'DELETE FROM post WHERE id = :id LIMIT 1';
-        $params = [':id' => $post->getId()];
-        $this->pdo->execute($sql,$params);
-      }
+        $params = [':id' => $id];
+        $this->db->execute($sql,$params);
+       }
 }

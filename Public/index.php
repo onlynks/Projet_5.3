@@ -25,13 +25,13 @@ Framework\Router::hydrate(App\Config\Routes::$routes);
 Framework\Router::matchAndDispatch();
 
 
-include (APP_PATH .'/Framework/post.php');
 
 
-
-
-
-
+/*
+echo '<pre>';
+var_dump();
+echo '</pre>';
+*/
 
 
 
