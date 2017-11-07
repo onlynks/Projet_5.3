@@ -1,0 +1,31 @@
+<body>
+
+    <p>
+        <h1> <?= $post->getTitlePost(); ?> </h1>
+        <stong> <?= $post->getAuthorPost();?> <?= $post->getDatePost()->format('Y-m-d H:i:s');?></stong> <!--AJOUTER DATE!!!-->
+        </br> <?= $post->getDescriptionPost();?>
+    </p>
+    <?php if(isset($coms))
+    {
+        foreach ($coms as $com) : ?>
+        <p>
+        <h3><?= $com->getAuthorCom(); ?></h3>
+        <strong><?= $com->getDateCom(); ?></strong>
+        </br><?= $com->getContentCom(); ?>
+        </p>
+    <?php endforeach; } ?>
+    
+    <!--Formulaire pour poster un commentaire-->
+    <p>
+        <form method="post" action="index.php?action=read&entity=post&id=<?= $post->getId(); ?>">
+            <label>Pseudo:</label><input type="text" name="authorCom" id="auteur_com">
+            </br><label>Votre commentaire:</label>
+            </br><textarea type="text" name="contentCom" id="com" rows="10" cols="50"></textarea>
+            <input type="submit" value="Envoyer" />
+        </form>
+    </p>
+    
+    <!--Lien vers la modification du post -->
+    <a href="index.php?action=update&entity=post&id=<?= $post->getId(); ?>">Mettre à jour le post</a>
+
+</body>

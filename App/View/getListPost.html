@@ -1,0 +1,22 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>blog</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+   <ul>
+       <?php foreach($post as $onePost): ?>
+       <li>
+           <a href = "index.php?action=read&entity=post&id=<?= $onePost->getId(); ?>">  Titre : <?= $onePost->getTitlePost(); ?> </a>
+       </li>
+       <?php endforeach; ?>
+   </ul>
+
+<a href="index.php?action=add&entity=post"> Nouveau Post </a>
+
+</body>
+</html>
