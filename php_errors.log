@@ -8059,3 +8059,546 @@ Stack trace:
 [07-Nov-2017 01:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
 [07-Nov-2017 01:56:21 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
 [07-Nov-2017 01:56:21 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:39:02 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/Framework/Framework/View.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[09-Nov-2017 15:39:02 UTC] PHP Stack trace:
+[09-Nov-2017 15:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:39:02 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:39:02 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:31
+[09-Nov-2017 15:39:02 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:31
+[09-Nov-2017 15:39:02 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/Framework/Framework/View.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[09-Nov-2017 15:39:02 UTC] PHP Stack trace:
+[09-Nov-2017 15:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:39:02 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:39:02 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:31
+[09-Nov-2017 15:39:02 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:31
+[09-Nov-2017 15:39:02 UTC] PHP Fatal error:  Class 'Framework\Framework\View' not found in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 31
+[09-Nov-2017 15:39:02 UTC] PHP Stack trace:
+[09-Nov-2017 15:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:39:02 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:53:58 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/Twig_Loader_Filesystem.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[09-Nov-2017 15:53:58 UTC] PHP Stack trace:
+[09-Nov-2017 15:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:53:58 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:53:58 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:53:58 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:53:58 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:53:58 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/Twig_Loader_Filesystem.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[09-Nov-2017 15:53:58 UTC] PHP Stack trace:
+[09-Nov-2017 15:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:53:58 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:53:58 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:53:58 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:53:58 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:53:58 UTC] PHP Fatal error:  Class 'App\Controller\Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 26
+[09-Nov-2017 15:53:58 UTC] PHP Stack trace:
+[09-Nov-2017 15:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:53:58 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:53:58 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:54:48 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/home/ubuntu/workspace/Projet_5.3/App/View/head.html" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(28): Twig_Environment->render('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/workspace/P in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[09-Nov-2017 15:59:09 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/View/head.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 21
+[09-Nov-2017 15:59:09 UTC] PHP Stack trace:
+[09-Nov-2017 15:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:59:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:59:09 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:59:09 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/View/head.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 21
+[09-Nov-2017 15:59:09 UTC] PHP Stack trace:
+[09-Nov-2017 15:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:59:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:59:09 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:59:30 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/View/head.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 21
+[09-Nov-2017 15:59:30 UTC] PHP Stack trace:
+[09-Nov-2017 15:59:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:59:30 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:59:30 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 15:59:30 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/View/head.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 21
+[09-Nov-2017 15:59:30 UTC] PHP Stack trace:
+[09-Nov-2017 15:59:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 15:59:30 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 15:59:30 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 16:03:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html on line 12
+[09-Nov-2017 16:03:22 UTC] PHP Stack trace:
+[09-Nov-2017 16:03:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[09-Nov-2017 16:03:22 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[09-Nov-2017 16:03:22 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[09-Nov-2017 16:03:22 UTC] PHP   4. App\Controller\PostController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:16
+[09-Nov-2017 16:03:22 UTC] PHP   5. Framework\View::getPage() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:54
+[09-Nov-2017 16:03:22 UTC] PHP   6. include() /home/ubuntu/workspace/Projet_5.3/Framework/View.php:16
+[10-Nov-2017 16:00:21 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/Twig_Loader_Filesystem.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[10-Nov-2017 16:00:21 UTC] PHP Stack trace:
+[10-Nov-2017 16:00:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:00:21 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:00:21 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:00:21 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:17
+[10-Nov-2017 16:00:21 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:17
+[10-Nov-2017 16:00:21 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/Twig_Loader_Filesystem.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[10-Nov-2017 16:00:21 UTC] PHP Stack trace:
+[10-Nov-2017 16:00:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:00:21 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:00:21 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:00:21 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:17
+[10-Nov-2017 16:00:21 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:17
+[10-Nov-2017 16:00:21 UTC] PHP Fatal error:  Class 'App\Controller\Twig_Loader_Filesystem' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 17
+[10-Nov-2017 16:00:21 UTC] PHP Stack trace:
+[10-Nov-2017 16:00:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:00:21 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:00:21 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:01:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:01:05 UTC] PHP Stack trace:
+[10-Nov-2017 16:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:01:05 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:01:05 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:01:05 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:01:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:01:53 UTC] PHP Stack trace:
+[10-Nov-2017 16:01:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:01:53 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:01:53 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:01:53 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:02:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:02:45 UTC] PHP Stack trace:
+[10-Nov-2017 16:02:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:02:45 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:02:45 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:02:45 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:03:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 33
+[10-Nov-2017 16:03:09 UTC] PHP Stack trace:
+[10-Nov-2017 16:03:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:03:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:03:09 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:03:09 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:33
+[10-Nov-2017 16:04:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:04:09 UTC] PHP Stack trace:
+[10-Nov-2017 16:04:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:04:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:04:09 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:04:09 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:04:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:04:43 UTC] PHP Stack trace:
+[10-Nov-2017 16:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:04:43 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:04:43 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:04:43 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:05:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:05:06 UTC] PHP Stack trace:
+[10-Nov-2017 16:05:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:05:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:05:06 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:05:06 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:05:29 UTC] PHP Stack trace:
+[10-Nov-2017 16:05:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:05:29 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:05:29 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:05:29 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:05:42 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/home/ubuntu/workspace/Projet_5.3/App/View/head.html.twig" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/worksp in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[10-Nov-2017 16:07:13 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate(NULL)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey(NULL)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass(NULL)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate(NULL)
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render(NULL, Array)
+#5 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(26): App\Controller\PostController->__construct('getList', Array)
+#6 /home/ubuntu/workspace/Projet_5. in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[10-Nov-2017 16:07:29 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/home/ubuntu/workspace/Projet_5.3/App/View/menu.html.twig" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/worksp in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[10-Nov-2017 16:08:44 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/home/ubuntu/workspace/Projet_5.3/App/View/head.html.twig" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/worksp in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[10-Nov-2017 16:09:59 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/home/ubuntu/workspace/Projet_5.3/App/View/head.html.twig" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/worksp in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[10-Nov-2017 16:12:04 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "/home/ubuntu/workspace/Projet_5.3/App/View/test.twig" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('/home/ubuntu/wo...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/workspace/P in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[10-Nov-2017 16:14:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:14:09 UTC] PHP Stack trace:
+[10-Nov-2017 16:14:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:14:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:14:09 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:14:09 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:15:38 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/Projet_5.3/Framework/View.php on line 28
+[10-Nov-2017 16:15:38 UTC] PHP Stack trace:
+[10-Nov-2017 16:15:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:15:38 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:15:38 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:15:38 UTC] PHP   4. App\Controller\PostController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:21
+[10-Nov-2017 16:15:38 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:77
+[10-Nov-2017 16:15:38 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:77
+[10-Nov-2017 16:16:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 35
+[10-Nov-2017 16:16:04 UTC] PHP Stack trace:
+[10-Nov-2017 16:16:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:16:04 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:16:04 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:16:04 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:35
+[10-Nov-2017 16:31:26 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected ")".' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:14
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(227): Twig_Lexer->lexExpression()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(126): Twig_Lexer->lexVar()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(673): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('getListPost.htm...')
+#6 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('getListPost.htm...', Arra in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 14
+[10-Nov-2017 16:31:49 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected ")".' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:14
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(227): Twig_Lexer->lexExpression()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(126): Twig_Lexer->lexVar()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(673): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('getListPost.htm...')
+#6 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('getListPost.htm...', Arra in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 14
+[10-Nov-2017 16:32:30 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected ")".' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:14
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(227): Twig_Lexer->lexExpression()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(126): Twig_Lexer->lexVar()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(673): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('getListPost.htm...')
+#6 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('getListPost.htm...', Arra in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 14
+[10-Nov-2017 16:32:47 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected ")".' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:14
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(227): Twig_Lexer->lexExpression()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(126): Twig_Lexer->lexVar()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(673): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('getListPost.htm...')
+#6 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(30): Twig_Environment->render('getListPost.htm...', Arra in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 14
+[10-Nov-2017 16:37:32 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "dump" function.' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:4
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('dump', 4)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('dump', 4)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 4
+[10-Nov-2017 16:37:46 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "dump" function.' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:4
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('dump', 4)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('dump', 4)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 4
+[10-Nov-2017 16:38:19 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "dump" function.' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:4
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('dump', 4)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('dump', 4)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 4
+[10-Nov-2017 16:38:29 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "dump" function.' in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig:4
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('dump', 4)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('dump', 4)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php in /home/ubuntu/workspace/Projet_5.3/App/View/getListPost.html.twig on line 4
+[10-Nov-2017 16:39:11 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/Twig_Extension_Debug.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[10-Nov-2017 16:39:11 UTC] PHP Stack trace:
+[10-Nov-2017 16:39:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:39:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:39:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:39:11 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:19
+[10-Nov-2017 16:39:11 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:19
+[10-Nov-2017 16:39:11 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/Twig_Extension_Debug.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[10-Nov-2017 16:39:11 UTC] PHP Stack trace:
+[10-Nov-2017 16:39:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:39:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:39:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[10-Nov-2017 16:39:11 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:19
+[10-Nov-2017 16:39:11 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:19
+[10-Nov-2017 16:39:11 UTC] PHP Fatal error:  Class 'App\Controller\Twig_Extension_Debug' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 19
+[10-Nov-2017 16:39:11 UTC] PHP Stack trace:
+[10-Nov-2017 16:39:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[10-Nov-2017 16:39:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[10-Nov-2017 16:39:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(head.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(): Failed opening 'head.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(menu.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(): Failed opening 'menu.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(homepage.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(): Failed opening 'homepage.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(footer.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:36:16 UTC] PHP Warning:  include(): Failed opening 'footer.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 14:36:16 UTC] PHP Stack trace:
+[15-Nov-2017 14:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:36:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:48:29 UTC] PHP Catchable fatal error:  Argument 1 passed to Twig_Template::render() must be of the type array, object given, called in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/TemplateWrapper.php on line 43 and defined in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Template.php on line 406
+[15-Nov-2017 14:48:29 UTC] PHP Stack trace:
+[15-Nov-2017 14:48:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:48:29 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:48:29 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:48:29 UTC] PHP   4. Twig_TemplateWrapper->render() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:29
+[15-Nov-2017 14:48:29 UTC] PHP   5. Twig_Template->render() /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/TemplateWrapper.php:43
+[15-Nov-2017 14:52:27 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:52:27 UTC] PHP Stack trace:
+[15-Nov-2017 14:52:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:52:27 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:52:27 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:52:27 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:52:27 UTC] PHP Stack trace:
+[15-Nov-2017 14:52:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:52:27 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:52:27 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:52:27 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:52:27 UTC] PHP Stack trace:
+[15-Nov-2017 14:52:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:52:27 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:52:27 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:52:27 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:52:27 UTC] PHP Stack trace:
+[15-Nov-2017 14:52:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:52:27 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:52:27 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:53:11 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:53:11 UTC] PHP Stack trace:
+[15-Nov-2017 14:53:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:53:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:53:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:53:11 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:53:11 UTC] PHP Stack trace:
+[15-Nov-2017 14:53:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:53:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:53:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:53:11 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:53:11 UTC] PHP Stack trace:
+[15-Nov-2017 14:53:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:53:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:53:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:53:11 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:53:11 UTC] PHP Stack trace:
+[15-Nov-2017 14:53:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:53:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:53:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:07 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:07 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:07 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:07 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:07 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:07 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:07 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:07 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:07 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:07 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:07 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:07 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:07 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:07 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:07 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:07 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:43 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:43 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:43 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:43 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:43 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:43 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:43 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:43 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:43 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:43 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:43 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:43 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:54:43 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 29
+[15-Nov-2017 14:54:43 UTC] PHP Stack trace:
+[15-Nov-2017 14:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:54:43 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:54:43 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 14:59:22 UTC] PHP Fatal error:  Call to a member function render() on a non-object in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 28
+[15-Nov-2017 14:59:22 UTC] PHP Stack trace:
+[15-Nov-2017 14:59:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 14:59:22 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 14:59:22 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:00:06 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 28
+[15-Nov-2017 15:00:06 UTC] PHP Stack trace:
+[15-Nov-2017 15:00:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:00:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:00:06 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:00:06 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 28
+[15-Nov-2017 15:00:06 UTC] PHP Stack trace:
+[15-Nov-2017 15:00:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:00:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:00:06 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:00:06 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 28
+[15-Nov-2017 15:00:06 UTC] PHP Stack trace:
+[15-Nov-2017 15:00:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:00:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:00:06 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:00:06 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 28
+[15-Nov-2017 15:00:06 UTC] PHP Stack trace:
+[15-Nov-2017 15:00:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:00:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:00:06 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:13:37 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[15-Nov-2017 15:13:37 UTC] PHP Stack trace:
+[15-Nov-2017 15:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:13:37 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:13:37 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:13:37 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:14
+[15-Nov-2017 15:13:37 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:67
+[15-Nov-2017 15:13:37 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[15-Nov-2017 15:15:09 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[15-Nov-2017 15:15:09 UTC] PHP Stack trace:
+[15-Nov-2017 15:15:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:15:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:15:09 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:15:09 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:14
+[15-Nov-2017 15:15:09 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:67
+[15-Nov-2017 15:15:09 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[15-Nov-2017 15:15:56 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[15-Nov-2017 15:15:56 UTC] PHP Stack trace:
+[15-Nov-2017 15:15:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:15:56 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:15:56 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:15:56 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:14
+[15-Nov-2017 15:15:56 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:67
+[15-Nov-2017 15:15:56 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[15-Nov-2017 15:20:46 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected end of template.' in /home/ubuntu/workspace/Projet_5.3/App/View/readPost.html.twig:22
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/TokenParser/If.php(42): Twig_TokenStream->next()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(712): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->l in /home/ubuntu/workspace/Projet_5.3/App/View/readPost.html.twig on line 22
+[15-Nov-2017 15:28:49 UTC] PHP Fatal error:  Call to undefined method App\Entity\Post::format() in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 55
+[15-Nov-2017 15:28:49 UTC] PHP Stack trace:
+[15-Nov-2017 15:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:28:49 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:28:49 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:28:49 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:14
+[15-Nov-2017 15:28:49 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:67
+[15-Nov-2017 15:28:49 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[15-Nov-2017 15:28:49 UTC] PHP   7. App\Entity\Post->hydrate() /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php:19
+[15-Nov-2017 15:28:49 UTC] PHP   8. App\Entity\Post->setDatePost() /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php:30
+[15-Nov-2017 15:28:58 UTC] PHP Fatal error:  Call to undefined method App\Entity\Post::format() in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 55
+[15-Nov-2017 15:28:58 UTC] PHP Stack trace:
+[15-Nov-2017 15:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:28:58 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:28:58 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[15-Nov-2017 15:28:58 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:14
+[15-Nov-2017 15:28:58 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:67
+[15-Nov-2017 15:28:58 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[15-Nov-2017 15:28:58 UTC] PHP   7. App\Entity\Post->hydrate() /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php:19
+[15-Nov-2017 15:28:58 UTC] PHP   8. App\Entity\Post->setDatePost() /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php:30
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(head.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(): Failed opening 'head.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(menu.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(): Failed opening 'menu.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(homepage.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(): Failed opening 'homepage.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(footer.html.twig): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:33:23 UTC] PHP Warning:  include(): Failed opening 'footer.html.twig' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 39
+[15-Nov-2017 15:33:23 UTC] PHP Stack trace:
+[15-Nov-2017 15:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:33:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:35:42 UTC] PHP Catchable fatal error:  Object of class Twig_TemplateWrapper could not be converted to string in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 41
+[15-Nov-2017 15:35:42 UTC] PHP Stack trace:
+[15-Nov-2017 15:35:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:35:42 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:37:00 UTC] PHP Catchable fatal error:  Object of class Twig_TemplateWrapper could not be converted to string in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 42
+[15-Nov-2017 15:37:00 UTC] PHP Stack trace:
+[15-Nov-2017 15:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:37:00 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:37:17 UTC] PHP Catchable fatal error:  Object of class Twig_TemplateWrapper could not be converted to string in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 42
+[15-Nov-2017 15:37:17 UTC] PHP Stack trace:
+[15-Nov-2017 15:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:37:17 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[15-Nov-2017 15:37:49 UTC] PHP Catchable fatal error:  Object of class Twig_TemplateWrapper could not be converted to string in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 42
+[15-Nov-2017 15:37:49 UTC] PHP Stack trace:
+[15-Nov-2017 15:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[15-Nov-2017 15:37:49 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25

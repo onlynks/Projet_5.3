@@ -13,6 +13,27 @@ class PostController extends Controller
         parent::hydrate($action, $params);
         $post = $this->getModele();
         $coms = $this->checkDependence( $action ,$params );
+        
+        $loader = new \Twig_Loader_Filesystem(APP_PATH . '/App/View');
+        $twig = new \Twig_Environment($loader, array('cache' => false, 'debug' => true,));
+        $twig->addExtension(new \Twig_Extension_Debug());
+       
+        
+        $page = $this->getView($action);
+        
+        if(isset($page))
+        {
+            foreach( $page as $element )
+            {
+               echo $template = $twig->render($element, array('post' => $post, 'coms' => $coms));
+            }
+        }
+        else
+        {
+            header('Location: index.php?action=getList&entity=post');
+        }
+        
+        /*
         $page = $this->getView($action);
         if(isset($page))
         {
@@ -25,6 +46,7 @@ class PostController extends Controller
         {
             header('Location: index.php?action=getList&entity=post');
         }
+        */
     }
     
     public function getModele()

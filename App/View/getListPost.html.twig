@@ -1,0 +1,13 @@
+
+<body>
+   <ul>
+       {% for onePost in post %}
+       <li>
+           <a href = "index.php?action=read&entity=post&id={{ onePost.id }}">  Titre : {{ onePost.titlePost }} </a>
+       </li>
+       {% endfor %}
+   </ul>
+
+<a href="index.php?action=add&entity=post"> Nouveau Post </a>
+
+</body>

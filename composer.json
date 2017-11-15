@@ -1,5 +1,7 @@
 {
     "require": {
-        "twig/twig": "^1.35"
+        "twig/twig": "^1.35",
+        
+        "digitalnature/php-ref": "^1.2"
     }
 }

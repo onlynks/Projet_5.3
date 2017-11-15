@@ -1,0 +1,33 @@
+<body>
+
+    <p>
+        <h1> {{ post.titlePost }} </h1>
+        <stong> {{ post.authorPost }} {{ post.datePost.format('Y-m-d H:i:s') }}</stong> <!--AJOUTER DATE!!!-->
+        </br> {{ post.descriptionPost }}
+    </p>
+    
+    
+    {% if coms is defined %}
+        {% for com in coms %}
+            <p>
+            <h3>{{ com.authorCom }}</h3>
+            <strong>{{ com.dateCom }}</strong>
+            </br>{{ com.contentCom }}
+            </p>
+        {% endfor %}
+    {% endif %}
+    
+    <!--Formulaire pour poster un commentaire-->
+    <p>
+        <form method="post" action="index.php?action=read&entity=post&id={{ post.id }}">
+            <label>Pseudo:</label><input type="text" name="authorCom" id="auteur_com">
+            </br><label>Votre commentaire:</label>
+            </br><textarea type="text" name="contentCom" id="com" rows="10" cols="50"></textarea>
+            <input type="submit" value="Envoyer" />
+        </form>
+    </p>
+    
+    <!--Lien vers la modification du post -->
+    <a href="index.php?action=update&entity=post&id={{ post.id }}">Mettre à jour le post</a>
+
+</body>

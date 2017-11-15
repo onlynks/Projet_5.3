@@ -6,13 +6,16 @@ class View
 {
     public static function getPage($page)
     {
-        $head = APP_PATH.'/App/View/head.html';
-        $menu = APP_PATH.'/App/View//menu.html';
-        $corp = APP_PATH.'/App/View/'.$page.'.html';
-        $footer = APP_PATH.'/App/View/footer.html';
-        if(file_exists($corp))
+        $mainFile = APP_PATH . '/App/View/' . $page.'.html.twig';
+        
+        $head = 'head.html.twig';
+        $menu = 'menu.html.twig';
+        $corp = $page.'.html.twig';
+        $footer = 'footer.html.twig';
+        
+        if(file_exists($mainFile))
         {
-            return $builtPage = [$head, $menu, $corp, $footer];
+           return  $builtPage = [$head, $menu, $corp, $footer];
         }
     }
     
@@ -25,5 +28,10 @@ class View
      {
          include ('/App/View/'.$element.'.html');
      }
+    }
+    
+    public static function erreur()
+    {
+        header("HTTP/1.0 404 Not Found");
     }
 }

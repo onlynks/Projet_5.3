@@ -28,15 +28,18 @@ class Router
            }
            else
            {
-               echo 'La route n\'existe pas';
+               View::erreur();
            }
         }
         else 
         {
+            $loader = new \Twig_Loader_Filesystem(APP_PATH . '/App/View');
+            $twig = new \Twig_Environment($loader, array('cache' => false, 'debug' => true,));
             $view = View::getPage('homepage');
+            
             foreach( $view as $element )
             {
-                include $element;
+               echo $twig->render($element);
             }
         }
     }
