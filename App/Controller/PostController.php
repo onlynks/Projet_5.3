@@ -16,8 +16,6 @@ class PostController extends Controller
         
         $loader = new \Twig_Loader_Filesystem(APP_PATH . '/App/View');
         $twig = new \Twig_Environment($loader, array('cache' => false, 'debug' => true,));
-        $twig->addExtension(new \Twig_Extension_Debug());
-       
         
         $page = $this->getView($action);
         
@@ -32,21 +30,6 @@ class PostController extends Controller
         {
             header('Location: index.php?action=getList&entity=post');
         }
-        
-        /*
-        $page = $this->getView($action);
-        if(isset($page))
-        {
-            foreach( $page as $element )
-            {
-                include $element;
-            }
-        }
-        else
-        {
-            header('Location: index.php?action=getList&entity=post');
-        }
-        */
     }
     
     public function getModele()
@@ -83,6 +66,7 @@ class PostController extends Controller
        {
            $managerClass = '\App\Model\\' .ucfirst($dependence['entity']) . 'Manager';
            $dependenceManager =  new $managerClass();
+           r($params);
            return $dependenceManager->$dependence['action']($params);
        }
     }

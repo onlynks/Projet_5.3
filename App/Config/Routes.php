@@ -39,11 +39,16 @@ class Routes
             'entity'=>'com',
             'action'=>'getList',
              ),
+     //7
+       array(
+            'entity'=>'com',
+            'action'=>'delete',
+             ),
              
         
      );
      
-     public static $dependence = array(3 => 6);
+     public static $dependence = array(3 => 6, 1 => 7);
      
      public static function checkDependence($entity, $action)
      {
@@ -52,19 +57,16 @@ class Routes
             'action' => $action
             );
       
-      //define the route to match with
-       $route = key(self::$dependence);
-       
-       //check if the current route match and return either the dependence or null
-       if($view == self::$routes[$route])
-       {
-       $return = self::$dependence[$route];
-       
-       return self::$routes[$return];
-       }
-       else
-       {
-        return null;
-       }
+      for($i = 0; $i <= 10; $i++) 
+         {
+           if($view == self::$routes[$i])
+           {
+            $try = array_search(self::$routes[$i], self::$routes);
+            
+            $result = self::$routes[self::$dependence[$try]];
+            
+            return $result;
+           }
+         }
      }
 }

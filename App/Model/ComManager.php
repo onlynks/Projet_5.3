@@ -40,7 +40,14 @@ class ComManager extends Manager
      $params = ['idPostCom' => $idPostCom, ':authorCom' => $comParams['authorCom'], ':contentCom' => $comParams['contentCom']];
      
      $this->db->execute($sql, $params);
-     
-     return 'Commentaire ajouté avec succés!';
+    }
+    
+    public function delete($param)
+    {
+        $id = $param['id'];
+        
+        $sql = 'DELETE FROM com WHERE idPostCom = :id LIMIT 1';
+        $params = [':id' => $id];
+        $this->db->execute($sql,$params);
     }
 }

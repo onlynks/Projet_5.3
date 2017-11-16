@@ -8602,3 +8602,93 @@ Stack trace:
 [15-Nov-2017 15:37:49 UTC] PHP Stack trace:
 [15-Nov-2017 15:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
 [15-Nov-2017 15:37:49 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 00:21:57 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Config/Routes.php on line 64
+[16-Nov-2017 00:21:57 UTC] PHP Stack trace:
+[16-Nov-2017 00:21:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 00:21:57 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 00:21:57 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 00:21:57 UTC] PHP   4. App\Controller\PostController->checkDependence() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:15
+[16-Nov-2017 00:21:57 UTC] PHP   5. App\Config\Routes::checkDependence() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[16-Nov-2017 01:01:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:01:05 UTC] PHP Stack trace:
+[16-Nov-2017 01:01:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:01:05 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:01:05 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:01:05 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:14:15 UTC] PHP Warning:  array_search() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/Projet_5.3/App/Config/Routes.php on line 74
+[16-Nov-2017 01:14:15 UTC] PHP Stack trace:
+[16-Nov-2017 01:14:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:14:15 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:14:15 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:14:15 UTC] PHP   4. App\Controller\PostController->checkDependence() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:15
+[16-Nov-2017 01:14:15 UTC] PHP   5. App\Config\Routes::checkDependence() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[16-Nov-2017 01:14:15 UTC] PHP   6. array_search() /home/ubuntu/workspace/Projet_5.3/App/Config/Routes.php:74
+[16-Nov-2017 01:20:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/Projet_5.3/App/Config/Routes.php on line 78
+[16-Nov-2017 01:20:26 UTC] PHP Stack trace:
+[16-Nov-2017 01:20:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:20:26 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:22
+[16-Nov-2017 01:20:26 UTC] PHP   3. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:22
+[16-Nov-2017 01:38:37 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/Projet_5.3/App/Config/Routes.php on line 78
+[16-Nov-2017 01:38:37 UTC] PHP Stack trace:
+[16-Nov-2017 01:38:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:38:37 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:22
+[16-Nov-2017 01:38:37 UTC] PHP   3. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:22
+[16-Nov-2017 01:40:29 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/Projet_5.3/App/Config/Routes.php on line 72
+[16-Nov-2017 01:40:29 UTC] PHP Stack trace:
+[16-Nov-2017 01:40:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:40:29 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:22
+[16-Nov-2017 01:40:29 UTC] PHP   3. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:22
+[16-Nov-2017 01:41:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:41:44 UTC] PHP Stack trace:
+[16-Nov-2017 01:41:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:41:44 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:41:44 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:41:44 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:43:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:43:02 UTC] PHP Stack trace:
+[16-Nov-2017 01:43:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:43:02 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:43:02 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:43:02 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:44:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:44:07 UTC] PHP Stack trace:
+[16-Nov-2017 01:44:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:44:07 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:44:07 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:44:07 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:45:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:45:16 UTC] PHP Stack trace:
+[16-Nov-2017 01:45:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:45:16 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:45:16 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:45:16 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:46:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:46:01 UTC] PHP Stack trace:
+[16-Nov-2017 01:46:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:46:01 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:46:01 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:46:01 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:47:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:47:09 UTC] PHP Stack trace:
+[16-Nov-2017 01:47:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:47:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:47:09 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:47:09 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:47:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:47:29 UTC] PHP Stack trace:
+[16-Nov-2017 01:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:47:29 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:47:29 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:47:29 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:48:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:48:14 UTC] PHP Stack trace:
+[16-Nov-2017 01:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:48:14 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:48:14 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:48:14 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:50:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php:2366) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 31
+[16-Nov-2017 01:50:27 UTC] PHP Stack trace:
+[16-Nov-2017 01:50:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:50:27 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 01:50:27 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[16-Nov-2017 01:50:27 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
