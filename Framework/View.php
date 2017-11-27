@@ -33,5 +33,9 @@ class View
     public static function erreur()
     {
         header("HTTP/1.0 404 Not Found");
+        
+        $loader = new \Twig_Loader_Filesystem(APP_PATH . '/App/View');
+        $twig = new \Twig_Environment($loader, array('cache' => false, 'debug' => true,));
+        echo  $twig->render('404.html.twig');
     }
 }

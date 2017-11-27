@@ -1,11 +1,22 @@
-
-<body>
-    <h3> <?= $post ?></h3>
-   <form method="post" action="index.php?action=add&entity=post">
-      <label>Titre du post: </label><input type="text" name="titlePost" id="titre_post"/>
-      </br><label>Votre pseudo: </label><input type="text" name="authorPost" id="auteur_post"/>
-      </br><label>Description : </label><textarea type="text" name="descriptionPost" id="description"></textarea>
-      </br><input type="submit"/>
-   </form>
+<div class="container">
+  <body>
+    <h1>Créer un nouveau post</h1>
     
-</body>
+  <form method="post" action="index.php?action=add&entity=post">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Titre du post:</label>
+      <input type="text" class="form-control" name="titlePost" id="titre_post">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Votre pseudo:</label>
+      <input type="text" class="form-control" name="authorPost" id="auteur_post">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Description :</label>
+      <textarea class="form-control" name="descriptionPost" id="description" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Créer</button>
+  </form>
+  
+  </body>
+</div>

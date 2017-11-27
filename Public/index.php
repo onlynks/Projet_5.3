@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 
 //define the main file
 define( "APP_PATH", dirname( dirname( __FILE__ ) ) );
@@ -7,13 +7,7 @@ define( "APP_PATH", dirname( dirname( __FILE__ ) ) );
 
 //charge composer's classes
 require(APP_PATH . '/vendor/autoload.php');
-/*
-//charge Twig
-$loader = new Twig_Loader_Filesystem(APP_PATH . '/App/View');
-$twig = new Twig_Environment($loader, array(
-    'cache' => false,
-));
-*/
+
 // Load and use the Autoloader
 include ('../Framework/Autoloader.php');
 Framework\Autoloader::Register();

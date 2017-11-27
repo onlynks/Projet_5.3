@@ -8692,3 +8692,885 @@ Stack trace:
 [16-Nov-2017 01:50:27 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
 [16-Nov-2017 01:50:27 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
 [16-Nov-2017 01:50:27 UTC] PHP   4. header() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:31
+[16-Nov-2017 01:54:30 UTC] PHP Warning:  require(/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:54:30 UTC] PHP Stack trace:
+[16-Nov-2017 01:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:54:30 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:54:30 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:54:30 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 01:54:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:54:30 UTC] PHP Stack trace:
+[16-Nov-2017 01:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:54:30 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:54:30 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:54:30 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 01:55:11 UTC] PHP Warning:  require(/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:55:11 UTC] PHP Stack trace:
+[16-Nov-2017 01:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:55:11 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:55:11 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:55:11 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 01:55:11 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:55:11 UTC] PHP Stack trace:
+[16-Nov-2017 01:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:55:11 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:55:11 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:55:11 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 01:55:19 UTC] PHP Warning:  require(/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:55:19 UTC] PHP Stack trace:
+[16-Nov-2017 01:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:55:19 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:55:19 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:55:19 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 01:55:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:55:19 UTC] PHP Stack trace:
+[16-Nov-2017 01:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:55:19 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:55:19 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:55:19 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 01:56:02 UTC] PHP Warning:  require(/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:56:02 UTC] PHP Stack trace:
+[16-Nov-2017 01:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:56:02 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:56:02 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:56:02 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 01:56:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 01:56:02 UTC] PHP Stack trace:
+[16-Nov-2017 01:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 01:56:02 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 01:56:02 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 01:56:02 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 02:01:51 UTC] PHP Warning:  require(/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 02:01:51 UTC] PHP Stack trace:
+[16-Nov-2017 02:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 02:01:51 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 02:01:51 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 02:01:51 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 02:01:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Projet_5.3/vendor/digitalnature/php-ref/ref.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php on line 66
+[16-Nov-2017 02:01:51 UTC] PHP Stack trace:
+[16-Nov-2017 02:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 02:01:51 UTC] PHP   2. require() /home/ubuntu/workspace/Projet_5.3/Public/index.php:9
+[16-Nov-2017 02:01:51 UTC] PHP   3. ComposerAutoloaderInit994825cc34c5d60430cbd406818ca248::getLoader() /home/ubuntu/workspace/Projet_5.3/vendor/autoload.php:7
+[16-Nov-2017 02:01:51 UTC] PHP   4. composerRequire994825cc34c5d60430cbd406818ca248() /home/ubuntu/workspace/Projet_5.3/vendor/composer/autoload_real.php:56
+[16-Nov-2017 14:44:02 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "error404.html.twig" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('error404.html.t...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('error404.html.t...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('error404.html.t...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('error404.html.t...')
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/View.php(37): Twig_Environment->render('error404.html.t...')
+#5 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(31): Framework\View::erre in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[16-Nov-2017 14:44:31 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Loader' with message 'Unable to find template "error404.html.twig" (looked into: /home/ubuntu/workspace/Projet_5.3/App/View).' in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:232
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(150): Twig_Loader_Filesystem->findTemplate('error404.html.t...')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(330): Twig_Loader_Filesystem->getCacheKey('error404.html.t...')
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(424): Twig_Environment->getTemplateClass('error404.html.t...')
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('error404.html.t...')
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/View.php(37): Twig_Environment->render('error404.html.t...')
+#5 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(31): Framework\View::erre in /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 232
+[16-Nov-2017 14:49:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/Projet_5.3/Framework/View.php on line 41
+[16-Nov-2017 14:49:52 UTC] PHP Stack trace:
+[16-Nov-2017 14:49:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[16-Nov-2017 14:49:52 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:25
+[16-Nov-2017 14:49:52 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:31
+[16-Nov-2017 14:49:52 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:31
+[17-Nov-2017 15:30:10 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "dump" function.' in /home/ubuntu/workspace/Projet_5.3/App/View/readPost.html.twig:19
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('dump', 19)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('dump', 19)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php in /home/ubuntu/workspace/Projet_5.3/App/View/readPost.html.twig on line 19
+[20-Nov-2017 02:11:47 UTC] PHP Fatal error:  Call to undefined method Framework\Database::prepare() in /home/ubuntu/workspace/Projet_5.3/App/Model/ComManager.php on line 58
+[20-Nov-2017 02:11:47 UTC] PHP Stack trace:
+[20-Nov-2017 02:11:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 02:11:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 02:11:47 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 02:11:47 UTC] PHP   4. App\Controller\PostController->checkDependence() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:21
+[20-Nov-2017 02:11:47 UTC] PHP   5. App\Model\ComManager->countCom() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:79
+[20-Nov-2017 02:12:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog_projet5.jeux_video' doesn't exist' in /home/ubuntu/workspace/Projet_5.3/App/Model/ComManager.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/App/Model/ComManager.php(59): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(79): App\Model\ComManager->countCom(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(21): App\Controller\PostController->checkDependence('getList', Array)
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(26): App\Controller\PostController->__construct('getList', Array)
+#4 /home/ubuntu/workspace/Projet_5.3/Public/index.php(19): Framework\Router::matchAndDispatch()
+#5 {main}
+  thrown in /home/ubuntu/workspace/Projet_5.3/App/Model/ComManager.php on line 59
+[20-Nov-2017 02:31:18 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 78
+[20-Nov-2017 02:31:18 UTC] PHP Stack trace:
+[20-Nov-2017 02:31:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 02:31:18 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 02:31:18 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[20-Nov-2017 02:31:18 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[20-Nov-2017 02:46:39 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 76
+[20-Nov-2017 02:46:39 UTC] PHP Stack trace:
+[20-Nov-2017 02:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 02:46:39 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 02:46:39 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 02:46:39 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 02:46:39 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:62
+[20-Nov-2017 02:46:39 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:62
+[20-Nov-2017 03:12:18 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:12:18 UTC] PHP Stack trace:
+[20-Nov-2017 03:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:12:18 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:12:18 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:12:18 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:12:18 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:12:18 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:13:23 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:13:23 UTC] PHP Stack trace:
+[20-Nov-2017 03:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:13:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:13:23 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:13:23 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:13:23 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:13:23 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:13:31 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:13:31 UTC] PHP Stack trace:
+[20-Nov-2017 03:13:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:13:31 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:13:31 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:13:31 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:13:31 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:13:31 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:16:27 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected character "$".' in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig:26
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(227): Twig_Lexer->lexExpression()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(126): Twig_Lexer->lexVar()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(673): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('updatePost.html...')
+#6 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(32): Twig_Environment->render('updatePost.html. in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig on line 26
+[20-Nov-2017 03:16:45 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:16:45 UTC] PHP Stack trace:
+[20-Nov-2017 03:16:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:16:45 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:16:45 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:16:45 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:16:45 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:16:45 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:17:11 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:17:11 UTC] PHP Stack trace:
+[20-Nov-2017 03:17:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:17:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:17:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:17:11 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:17:11 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:17:11 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:18:23 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:18:23 UTC] PHP Stack trace:
+[20-Nov-2017 03:18:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:18:23 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:18:23 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:18:23 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:18:23 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:18:23 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:18:32 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:18:32 UTC] PHP Stack trace:
+[20-Nov-2017 03:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:18:32 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:18:32 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:18:32 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:18:32 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:18:32 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:18:44 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:18:44 UTC] PHP Stack trace:
+[20-Nov-2017 03:18:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:18:44 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:18:44 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:18:44 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:18:44 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:18:44 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:18:48 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:18:48 UTC] PHP Stack trace:
+[20-Nov-2017 03:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:18:48 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:18:48 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:18:48 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:18:48 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:18:48 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:20:55 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:20:55 UTC] PHP Stack trace:
+[20-Nov-2017 03:20:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:20:55 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:20:55 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:20:55 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:20:55 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:20:55 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:20:57 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 32
+[20-Nov-2017 03:20:57 UTC] PHP Stack trace:
+[20-Nov-2017 03:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:20:57 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:20:57 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:20:57 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 32
+[20-Nov-2017 03:20:57 UTC] PHP Stack trace:
+[20-Nov-2017 03:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:20:57 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:20:57 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:20:57 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 32
+[20-Nov-2017 03:20:57 UTC] PHP Stack trace:
+[20-Nov-2017 03:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:20:57 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:20:57 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:20:57 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "get" function.' in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig:28
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('get', 28)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('get', 28)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php( in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig on line 28
+[20-Nov-2017 03:21:11 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[20-Nov-2017 03:21:11 UTC] PHP Stack trace:
+[20-Nov-2017 03:21:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:21:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:21:11 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:21:11 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:20
+[20-Nov-2017 03:21:11 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[20-Nov-2017 03:21:11 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[20-Nov-2017 03:21:14 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 32
+[20-Nov-2017 03:21:14 UTC] PHP Stack trace:
+[20-Nov-2017 03:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:21:14 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:21:14 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:21:14 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 32
+[20-Nov-2017 03:21:14 UTC] PHP Stack trace:
+[20-Nov-2017 03:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:21:14 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:21:14 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:21:14 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 32
+[20-Nov-2017 03:21:14 UTC] PHP Stack trace:
+[20-Nov-2017 03:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:21:14 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:21:14 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:21:14 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php on line 32
+[20-Nov-2017 03:21:14 UTC] PHP Stack trace:
+[20-Nov-2017 03:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[20-Nov-2017 03:21:14 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[20-Nov-2017 03:21:14 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[20-Nov-2017 03:23:24 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unknown "get" function.' in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig:28
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(374): Twig_ExpressionParser->getFunctionNodeClass('get', 28)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(162): Twig_ExpressionParser->getFunctionNode('get', 28)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(147): Twig_ExpressionParser->parseExpression()
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php( in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig on line 28
+[20-Nov-2017 03:23:52 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected "}".' in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig:28
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(227): Twig_Lexer->lexExpression()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Lexer.php(126): Twig_Lexer->lexVar()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(673): Twig_Lexer->tokenize(Object(Twig_Source))
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->tokenize(Object(Twig_Source))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->loadTemplate('updatePost.html...')
+#6 /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php(33): Twig_Environment->render('updatePost.html...', Array in /home/ubuntu/workspace/Projet_5.3/App/View/updatePost.html.twig on line 28
+[20-Nov-2017 20:47:34 UTC] PHP Fatal error:  Uncaught exception 'Twig_Error_Syntax' with message 'Unexpected end of template.' in /home/ubuntu/workspace/Projet_5.3/App/View/readPost.html.twig:61
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/TokenParser/If.php(42): Twig_TokenStream->next()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(190): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Parser.php(103): Twig_Parser->subparse(NULL, false)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(712): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(770): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(452): Twig_Environment->compileSource(Object(Twig_Source))
+#6 /home/ubuntu/workspace/Projet_5.3/vendor/twig/twig/lib/Twig/Environment.php(363): Twig_Environment->l in /home/ubuntu/workspace/Projet_5.3/App/View/readPost.html.twig on line 61
+[21-Nov-2017 14:06:09 UTC] PHP Parse error:  syntax error, unexpected '$aMailsDest' (T_VARIABLE) in /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php on line 3
+[21-Nov-2017 14:06:09 UTC] PHP Stack trace:
+[21-Nov-2017 14:06:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[21-Nov-2017 14:06:09 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[21-Nov-2017 14:06:22 UTC] PHP Parse error:  syntax error, unexpected 'de' (T_STRING), expecting ')' in /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php on line 3
+[21-Nov-2017 14:06:22 UTC] PHP Stack trace:
+[21-Nov-2017 14:06:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[21-Nov-2017 14:06:22 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[21-Nov-2017 14:06:32 UTC] PHP Parse error:  syntax error, unexpected 'de' (T_STRING), expecting ')' in /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php on line 3
+[21-Nov-2017 14:06:32 UTC] PHP Stack trace:
+[21-Nov-2017 14:06:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[21-Nov-2017 14:06:32 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[21-Nov-2017 14:07:21 UTC] PHP Parse error:  syntax error, unexpected 'sujet' (T_STRING) in /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php on line 20
+[21-Nov-2017 14:07:21 UTC] PHP Stack trace:
+[21-Nov-2017 14:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[21-Nov-2017 14:07:21 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[21-Nov-2017 14:08:27 UTC] PHP Parse error:  syntax error, unexpected '$type' (T_VARIABLE) in /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php on line 31
+[21-Nov-2017 14:08:27 UTC] PHP Stack trace:
+[21-Nov-2017 14:08:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[21-Nov-2017 14:08:27 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[21-Nov-2017 14:08:53 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [mail] does not comply with RFC 2822, 3.6.2.' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:345
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(261): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('mail')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(58): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/ubuntu/workspace/Pr in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 345
+[21-Nov-2017 14:11:31 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [mail] does not comply with RFC 2822, 3.6.2.' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:345
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(261): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('mail')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(58): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/ubuntu/workspace/Pr in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 345
+[21-Nov-2017 14:16:56 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [mail] does not comply with RFC 2822, 3.6.2.' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:345
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(261): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('mail')
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(58): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/ubuntu/workspace/Pr in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 345
+[21-Nov-2017 14:28:34 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [Connection timed out #110]' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet_5.3/Pub in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[21-Nov-2017 14:31:24 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.orange.fr [Connection timed out #110]' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet_5.3/Pub in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[21-Nov-2017 14:39:01 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.orange.fr [Connection timed out #110]' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet_5.3/Pub in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[21-Nov-2017 14:39:41 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[21-Nov-2017 14:51:50 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[21-Nov-2017 14:57:09 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [Connection timed out #110]' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:268
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet_5.3/Pub in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 268
+[21-Nov-2017 14:57:31 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[21-Nov-2017 15:00:27 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[21-Nov-2017 15:05:22 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/mailSender.php(20): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/Framework/Router.php(40): include('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/Projet in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[21-Nov-2017 15:16:29 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "530", with message "530 5.7.0 Must issue a STARTTLS command first. p79sm1827087wmf.43 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('530 5.7.0 Must ...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<john...', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(347): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<john...', Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftm in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[21-Nov-2017 15:24:44 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "530", with message "530 5.7.0 Must issue a STARTTLS command first. r14sm33300150wrb.43 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('530 5.7.0 Must ...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<john...', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(347): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<john...', Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swift in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[21-Nov-2017 15:25:19 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "530", with message "530 5.7.0 Must issue a STARTTLS command first. t19sm7535346wrb.58 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('530 5.7.0 Must ...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<john...', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(347): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<john...', Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftm in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[22-Nov-2017 15:46:08 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/sendPost.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 24
+[22-Nov-2017 15:46:08 UTC] PHP Stack trace:
+[22-Nov-2017 15:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:46:08 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:46:08 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:28
+[22-Nov-2017 15:46:08 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:12
+[22-Nov-2017 15:46:08 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/sendPost.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 24
+[22-Nov-2017 15:46:08 UTC] PHP Stack trace:
+[22-Nov-2017 15:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:46:08 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:46:08 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:28
+[22-Nov-2017 15:46:08 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:12
+[22-Nov-2017 15:46:08 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:46:08 UTC] PHP Stack trace:
+[22-Nov-2017 15:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:46:08 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:46:08 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:28
+[22-Nov-2017 15:46:08 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[22-Nov-2017 15:46:08 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[22-Nov-2017 15:46:08 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[22-Nov-2017 15:46:08 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:46:08 UTC] PHP Stack trace:
+[22-Nov-2017 15:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:46:08 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:46:08 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:28
+[22-Nov-2017 15:46:08 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[22-Nov-2017 15:46:08 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[22-Nov-2017 15:46:08 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[22-Nov-2017 15:46:08 UTC] PHP Fatal error:  Class 'App\Controller\ComManager' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 19
+[22-Nov-2017 15:46:08 UTC] PHP Stack trace:
+[22-Nov-2017 15:46:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:46:08 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:46:08 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:28
+[22-Nov-2017 15:46:08 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[22-Nov-2017 15:47:47 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/sendPost.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 27
+[22-Nov-2017 15:47:47 UTC] PHP Stack trace:
+[22-Nov-2017 15:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:47:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:47:47 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:47:47 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:15
+[22-Nov-2017 15:47:47 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/sendPost.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 27
+[22-Nov-2017 15:47:47 UTC] PHP Stack trace:
+[22-Nov-2017 15:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:47:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:47:47 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:47:47 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:15
+[22-Nov-2017 15:47:47 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:47:47 UTC] PHP Stack trace:
+[22-Nov-2017 15:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:47:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:47:47 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:47:47 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:16
+[22-Nov-2017 15:47:47 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:22
+[22-Nov-2017 15:47:47 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:22
+[22-Nov-2017 15:47:47 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:47:47 UTC] PHP Stack trace:
+[22-Nov-2017 15:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:47:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:47:47 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:47:47 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:16
+[22-Nov-2017 15:47:47 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:22
+[22-Nov-2017 15:47:47 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:22
+[22-Nov-2017 15:47:47 UTC] PHP Fatal error:  Class 'App\Controller\ComManager' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 22
+[22-Nov-2017 15:47:47 UTC] PHP Stack trace:
+[22-Nov-2017 15:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:47:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:47:47 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:47:47 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:16
+[22-Nov-2017 15:49:06 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/homepagePost.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 25
+[22-Nov-2017 15:49:06 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:06 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:06 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[22-Nov-2017 15:49:06 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/homepagePost.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 25
+[22-Nov-2017 15:49:06 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:06 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:06 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[22-Nov-2017 15:49:06 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:49:06 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:06 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:06 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[22-Nov-2017 15:49:06 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:06 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:06 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:49:06 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:06 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:06 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[22-Nov-2017 15:49:06 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:06 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:06 UTC] PHP Fatal error:  Class 'App\Controller\ComManager' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 20
+[22-Nov-2017 15:49:06 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:06 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:06 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:06 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[22-Nov-2017 15:49:30 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/homepage.Post.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 25
+[22-Nov-2017 15:49:30 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:30 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:30 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:30 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[22-Nov-2017 15:49:30 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/../View/homepage.Post.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 25
+[22-Nov-2017 15:49:30 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:30 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:30 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:30 UTC] PHP   4. App\Controller\HomePageController->getView() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[22-Nov-2017 15:49:30 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:49:30 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:30 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:30 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:30 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[22-Nov-2017 15:49:30 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:30 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:30 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/ComManager.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:49:30 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:30 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:30 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:30 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[22-Nov-2017 15:49:30 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:30 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:20
+[22-Nov-2017 15:49:30 UTC] PHP Fatal error:  Class 'App\Controller\ComManager' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 20
+[22-Nov-2017 15:49:30 UTC] PHP Stack trace:
+[22-Nov-2017 15:49:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:49:30 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:49:30 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:49:30 UTC] PHP   4. App\Controller\HomePageController->execute() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[22-Nov-2017 15:53:37 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/App/Controller/View.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:53:37 UTC] PHP Stack trace:
+[22-Nov-2017 15:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:53:37 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:53:37 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:53:37 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:30
+[22-Nov-2017 15:53:37 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:30
+[22-Nov-2017 15:53:37 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/App/Controller/View.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[22-Nov-2017 15:53:37 UTC] PHP Stack trace:
+[22-Nov-2017 15:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:53:37 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:53:37 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[22-Nov-2017 15:53:37 UTC] PHP   4. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:30
+[22-Nov-2017 15:53:37 UTC] PHP   5. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:30
+[22-Nov-2017 15:53:37 UTC] PHP Fatal error:  Class 'App\Controller\View' not found in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 30
+[22-Nov-2017 15:53:37 UTC] PHP Stack trace:
+[22-Nov-2017 15:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[22-Nov-2017 15:53:37 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[22-Nov-2017 15:53:37 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:24:24 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 48
+[23-Nov-2017 14:24:24 UTC] PHP Stack trace:
+[23-Nov-2017 14:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:24:24 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:24:24 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[23-Nov-2017 14:24:24 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[23-Nov-2017 14:27:50 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "530", with message "530 5.7.0 Must issue a STARTTLS command first. r15sm11748459wrc.36 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('530 5.7.0 Must ...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<john...', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(347): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<john...', Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swift in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[23-Nov-2017 14:28:53 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/Framework/Swift_SmtpTransport.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:28:53 UTC] PHP Stack trace:
+[23-Nov-2017 14:28:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:28:53 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:28:53 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:28:53 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:28:53 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:28:53 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:11
+[23-Nov-2017 14:28:53 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:11
+[23-Nov-2017 14:28:53 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/Framework/Swift_SmtpTransport.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:28:53 UTC] PHP Stack trace:
+[23-Nov-2017 14:28:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:28:53 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:28:53 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:28:53 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:28:53 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:28:53 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:11
+[23-Nov-2017 14:28:53 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:11
+[23-Nov-2017 14:28:53 UTC] PHP Fatal error:  Class 'Framework\Swift_SmtpTransport' not found in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 11
+[23-Nov-2017 14:28:53 UTC] PHP Stack trace:
+[23-Nov-2017 14:28:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:28:53 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:28:53 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:28:53 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:28:53 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:30:54 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/Framework/Swift_Mailer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:30:54 UTC] PHP Stack trace:
+[23-Nov-2017 14:30:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:30:54 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:30:54 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:30:54 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:30:54 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:30:54 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[23-Nov-2017 14:30:54 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[23-Nov-2017 14:30:54 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/Framework/Swift_Mailer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:30:54 UTC] PHP Stack trace:
+[23-Nov-2017 14:30:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:30:54 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:30:54 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:30:54 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:30:54 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:30:54 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[23-Nov-2017 14:30:54 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:19
+[23-Nov-2017 14:30:54 UTC] PHP Fatal error:  Class 'Framework\Swift_Mailer' not found in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 19
+[23-Nov-2017 14:30:54 UTC] PHP Stack trace:
+[23-Nov-2017 14:30:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:30:54 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:30:54 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:30:54 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:30:54 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:11 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/Framework/Swift_Message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:31:11 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:11 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:11 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:11 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:11 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:11 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:11 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/Framework/Swift_Message.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:31:11 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:11 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:11 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:11 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:11 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:11 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:11 UTC] PHP Fatal error:  Class 'Framework\Swift_Message' not found in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 23
+[23-Nov-2017 14:31:11 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:11 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:11 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:11 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:11 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:40 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/Framework/Swift_SmtpTransport.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:31:40 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:40 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:40 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:40 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:40 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:40 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[23-Nov-2017 14:31:40 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[23-Nov-2017 14:31:40 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/Framework/Swift_SmtpTransport.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:31:40 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:40 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:40 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:40 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:40 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:40 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[23-Nov-2017 14:31:40 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:13
+[23-Nov-2017 14:31:40 UTC] PHP Fatal error:  Class 'Framework\Swift_SmtpTransport' not found in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 13
+[23-Nov-2017 14:31:40 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:40 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:40 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:40 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:40 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:48 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/Framework/Swift_Message.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:31:48 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:48 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:48 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:48 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:48 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:48 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:48 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:48 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/Framework/Swift_Message.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[23-Nov-2017 14:31:48 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:48 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:48 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:48 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:48 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:31:48 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:48 UTC] PHP   7. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:23
+[23-Nov-2017 14:31:48 UTC] PHP Fatal error:  Class 'Framework\Swift_Message' not found in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 23
+[23-Nov-2017 14:31:48 UTC] PHP Stack trace:
+[23-Nov-2017 14:31:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:31:48 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:31:48 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 14:31:48 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 14:31:48 UTC] PHP   5. Framework\MailSender::send() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 14:32:02 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "530", with message "530 5.7.0 Must issue a STARTTLS command first. d4sm7329349wmh.35 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('530 5.7.0 Must ...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<john...', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(347): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<john...', Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftma in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[23-Nov-2017 14:32:32 UTC] PHP Warning:  include(mailSender.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 14:32:32 UTC] PHP Stack trace:
+[23-Nov-2017 14:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:32:32 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 14:32:32 UTC] PHP Warning:  include(): Failed opening 'mailSender.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 14:32:32 UTC] PHP Stack trace:
+[23-Nov-2017 14:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 14:32:32 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:09:49 UTC] PHP Warning:  include(mailSender.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:09:49 UTC] PHP Stack trace:
+[23-Nov-2017 15:09:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:09:49 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:09:49 UTC] PHP Warning:  include(): Failed opening 'mailSender.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:09:49 UTC] PHP Stack trace:
+[23-Nov-2017 15:09:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:09:49 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:12:04 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "530", with message "530 5.7.0 Must issue a STARTTLS command first. 1sm7427981wmu.8 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('530 5.7.0 Must ...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('MAIL FROM:<john...', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(347): Swift_Transport_EsmtpTransport->executeCommand('MAIL FROM:<john...', Array)
+#3 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmail in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[23-Nov-2017 15:14:01 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s6sm13458595edd.23 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET??', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(55): Swift_Transport_EsmtpTransport->executeCommand('RSET??', Ar in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[23-Nov-2017 15:14:36 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php(31): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php(40): Framework\MailSender::send()
+#5 /home/ubuntu/ in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[23-Nov-2017 15:14:48 UTC] PHP Warning:  include(mailSender.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:14:48 UTC] PHP Stack trace:
+[23-Nov-2017 15:14:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:14:48 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:14:48 UTC] PHP Warning:  include(): Failed opening 'mailSender.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:14:48 UTC] PHP Stack trace:
+[23-Nov-2017 15:14:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:14:48 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:15:07 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(289): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(117): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php(31): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php(40): Framework\MailSender::send()
+#5 /home/ubuntu/ in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[23-Nov-2017 15:15:33 UTC] PHP Warning:  include(mailSender.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:15:33 UTC] PHP Stack trace:
+[23-Nov-2017 15:15:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:15:33 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:15:33 UTC] PHP Warning:  include(): Failed opening 'mailSender.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:15:33 UTC] PHP Stack trace:
+[23-Nov-2017 15:15:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:15:33 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:15:40 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y9sm11376158edh.73 - gsmtp
+"' in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(270): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET??', Array, Array)
+#2 /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(55): Swift_Transport_EsmtpTransport->executeCommand('RSET??', Ar in /home/ubuntu/workspace/Projet_5.3/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[23-Nov-2017 15:27:58 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 47
+[23-Nov-2017 15:27:58 UTC] PHP Stack trace:
+[23-Nov-2017 15:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:27:58 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:27:58 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 15:27:58 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 15:27:58 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 15:27:58 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 15:27:58 UTC] PHP   7. include() /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php:14
+[23-Nov-2017 15:27:58 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 47
+[23-Nov-2017 15:27:58 UTC] PHP Stack trace:
+[23-Nov-2017 15:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:27:58 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:27:58 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[23-Nov-2017 15:27:58 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[23-Nov-2017 15:27:58 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 15:27:58 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[23-Nov-2017 15:27:58 UTC] PHP   7. include() /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php:14
+[23-Nov-2017 15:29:13 UTC] PHP Warning:  include(mailSender.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:29:13 UTC] PHP Stack trace:
+[23-Nov-2017 15:29:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:29:13 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[23-Nov-2017 15:29:13 UTC] PHP Warning:  include(): Failed opening 'mailSender.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 46
+[23-Nov-2017 15:29:13 UTC] PHP Stack trace:
+[23-Nov-2017 15:29:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[23-Nov-2017 15:29:13 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[24-Nov-2017 15:09:55 UTC] PHP Parse error:  syntax error, unexpected '$CurrentRouteShortcut' (T_VARIABLE) in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 20
+[24-Nov-2017 15:09:55 UTC] PHP Stack trace:
+[24-Nov-2017 15:09:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[24-Nov-2017 15:09:55 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:16
+[24-Nov-2017 15:09:55 UTC] PHP   3. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:16
+[24-Nov-2017 15:36:28 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting '&' or variable (T_VARIABLE) in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 36
+[24-Nov-2017 15:36:28 UTC] PHP Stack trace:
+[24-Nov-2017 15:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[24-Nov-2017 15:36:28 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[24-Nov-2017 15:36:28 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[24-Nov-2017 15:36:28 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[24-Nov-2017 15:53:01 UTC] PHP Parse error:  syntax error, unexpected 'h1' (T_STRING) in /home/ubuntu/workspace/Projet_5.3/Framework/MailSender.php on line 16
+[24-Nov-2017 15:53:01 UTC] PHP Stack trace:
+[24-Nov-2017 15:53:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[24-Nov-2017 15:53:01 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[24-Nov-2017 15:53:01 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[24-Nov-2017 15:53:01 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[24-Nov-2017 15:53:01 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:42
+[24-Nov-2017 15:53:01 UTC] PHP   6. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:42
+[26-Nov-2017 22:38:44 UTC] PHP Warning:  include(/home/ubuntu/workspace/Projet_5.3/Framework/App/Controller/HomePageController.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[26-Nov-2017 22:38:44 UTC] PHP Stack trace:
+[26-Nov-2017 22:38:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[26-Nov-2017 22:38:44 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[26-Nov-2017 22:38:44 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:36
+[26-Nov-2017 22:38:44 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:36
+[26-Nov-2017 22:38:44 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Projet_5.3/Framework/App/Controller/HomePageController.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Projet_5.3/Framework/Autoloader.php on line 14
+[26-Nov-2017 22:38:44 UTC] PHP Stack trace:
+[26-Nov-2017 22:38:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[26-Nov-2017 22:38:44 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[26-Nov-2017 22:38:44 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:36
+[26-Nov-2017 22:38:44 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:36
+[26-Nov-2017 22:38:44 UTC] PHP Fatal error:  Class 'Framework\App\Controller\HomePageController' not found in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 36
+[26-Nov-2017 22:38:44 UTC] PHP Stack trace:
+[26-Nov-2017 22:38:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[26-Nov-2017 22:38:44 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[26-Nov-2017 22:38:57 UTC] PHP Warning:  Missing argument 1 for App\Controller\HomePageController::__construct(), called in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 36 and defined in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 9
+[26-Nov-2017 22:38:57 UTC] PHP Stack trace:
+[26-Nov-2017 22:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[26-Nov-2017 22:38:57 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[26-Nov-2017 22:38:57 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:36
+[26-Nov-2017 22:38:57 UTC] PHP Warning:  Missing argument 2 for App\Controller\HomePageController::__construct(), called in /home/ubuntu/workspace/Projet_5.3/Framework/Router.php on line 36 and defined in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 9
+[26-Nov-2017 22:38:57 UTC] PHP Stack trace:
+[26-Nov-2017 22:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[26-Nov-2017 22:38:57 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[26-Nov-2017 22:38:57 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:36
+[26-Nov-2017 22:39:26 UTC] PHP Warning:  Illegal string offset 'post' in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 38
+[26-Nov-2017 22:39:26 UTC] PHP Stack trace:
+[26-Nov-2017 22:39:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[26-Nov-2017 22:39:26 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[26-Nov-2017 22:39:26 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:36
+[26-Nov-2017 22:39:26 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[26-Nov-2017 22:39:26 UTC] PHP Warning:  Illegal string offset 'post' in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 54
+[26-Nov-2017 22:39:26 UTC] PHP Stack trace:
+[26-Nov-2017 22:39:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[26-Nov-2017 22:39:26 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[26-Nov-2017 22:39:26 UTC] PHP   3. App\Controller\HomePageController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:36
+[26-Nov-2017 22:39:26 UTC] PHP   4. App\Controller\HomePageController->sendMail() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:14
+[26-Nov-2017 22:39:26 UTC] PHP   5. App\Controller\HomePageController->validData() /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php:40
+[27-Nov-2017 02:36:47 UTC] PHP Parse error:  syntax error, unexpected '!' in /home/ubuntu/workspace/Projet_5.3/App/Controller/HomePageController.php on line 45
+[27-Nov-2017 02:36:47 UTC] PHP Stack trace:
+[27-Nov-2017 02:36:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[27-Nov-2017 02:36:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[27-Nov-2017 02:36:47 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[27-Nov-2017 02:36:47 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26

@@ -1,12 +1,24 @@
-<body>
-  <h1>Bienvenu à toutes et à tous!</h1>
-  
-  <form method='POST' action='homepage.php'>
-      <input type='text' name='nom' placeholder='Votre nom'></input></br></br>
-      <input type='email' name='email' placeholder='Votre email'></input></br></br>
-      <textarea name='message' placeholder='Votre message'></textarea></br></br>
-      <input type='submit' name='envoyer' value='Envoyer'></input></br>
+<div class="container">
+  <body>
+    <h1>Bienvenu à toutes et à tous!</h1>
+    
+  <form method='post' action='index.php?entity=homePage'>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Votre nom:</label>
+      <input type="text" class="form-control" name="name" id="name">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Votre email:</label>
+      <input type="email" class="form-control" name="mail" id="mail" placeholder="nom@exemple.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Votre message:</label>
+      <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Envoyer</button>
   </form>
-
-</body>
-
+  
+  {{ message }}
+  
+  </body>
+</div>

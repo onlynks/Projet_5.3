@@ -18,7 +18,7 @@ class ComManager extends Manager
         
         $idPostCom = $params['id'];
         
-        $list = $this->db->pdo->prepare("SELECT * FROM com WHERE idPostCom = :idPostCom LIMIT 0, 6");
+        $list = $this->db->pdo->prepare("SELECT * FROM com WHERE idPostCom = :idPostCom LIMIT 0, 20");
         $list->execute(['idPostCom' => $idPostCom]);
         $results = $list->fetchAll();
         
@@ -50,4 +50,6 @@ class ComManager extends Manager
         $params = [':id' => $id];
         $this->db->execute($sql,$params);
     }
+    
+    
 }

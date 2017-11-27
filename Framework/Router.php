@@ -31,16 +31,9 @@ class Router
                View::erreur();
            }
         }
-        else 
+        else
         {
-            $loader = new \Twig_Loader_Filesystem(APP_PATH . '/App/View');
-            $twig = new \Twig_Environment($loader, array('cache' => false, 'debug' => true,));
-            $view = View::getPage('homepage');
-            
-            foreach( $view as $element )
-            {
-               echo $twig->render($element);
-            }
+            return new \App\Controller\HomePageController();
         }
     }
 }

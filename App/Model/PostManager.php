@@ -52,20 +52,18 @@ class PostManager extends Manager
       
     }
  
-    public function getList($params)
+    public function getList()
     {
-     
      $query = $this->db->select('post',null,10);
      
      foreach($query as $post)
      {
      $posts[] = new \App\Entity\Post($post);
-     
      }
-     return $posts;
      
+     return $posts;
     }
-   
+     
     /**
      * 
      * @param Post $post objet de type Post
@@ -104,4 +102,15 @@ class PostManager extends Manager
         $params = [':id' => $id];
         $this->db->execute($sql,$params);
        }
+       
+       public function countCom($param)
+    {
+        $id = $param['id'];
+        
+        $requete = $this->db->pdo->prepare('SELECT COUNT(id) as countid FROM com WHERE idPostCom = :id');
+        $requete->execute([':id' => $id]);
+        
+        return $result = $requete->fetch();
+        
+    }
 }

@@ -1,13 +1,26 @@
+<div class="container">
+    <body>
+        <div class="jumbotron">
+          <h1 class="display-3">Bienvenue sur mon forum!</h1>
+          <p class="lead">Vous pouvez accéder sur cette page à l'ensemble des posts.</p>
+          <hr class="my-4">
+          <p>Lancez vous aussi votre sujet de discution!</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg"  href="index.php?action=add&entity=post" role="button">Nouveau Post</a>
+          </p>
+        </div>
+        
+        <ul class="list-group">
+          
+          {% for onePost in post %}
+            
+          <li>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" href = "index.php?action=read&entity=post&id={{ onePost.id }}">  Titre : {{ onePost.titlePost }} </a>
+          </li>
+          
+          {% endfor %}
+         
+        </ul>
+    </body>
+</div>
 
-<body>
-   <ul>
-       {% for onePost in post %}
-       <li>
-           <a href = "index.php?action=read&entity=post&id={{ onePost.id }}">  Titre : {{ onePost.titlePost }} </a>
-       </li>
-       {% endfor %}
-   </ul>
-
-<a href="index.php?action=add&entity=post"> Nouveau Post </a>
-
-</body>

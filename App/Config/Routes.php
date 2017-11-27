@@ -44,6 +44,11 @@ class Routes
             'entity'=>'com',
             'action'=>'delete',
              ),
+     //8
+       array(
+            'entity'=>'homePage',
+            'action'=>'',
+             ),
              
         
      );
@@ -56,13 +61,15 @@ class Routes
       array('entity' => $entity,
             'action' => $action
             );
-      
+      //looking for our route among all of them
       for($i = 0; $i <= 10; $i++) 
          {
            if($view == self::$routes[$i])
            {
+            //try represente the key of the affected route
             $try = array_search(self::$routes[$i], self::$routes);
             
+            //link and return the dependence
             $result = self::$routes[self::$dependence[$try]];
             
             return $result;
