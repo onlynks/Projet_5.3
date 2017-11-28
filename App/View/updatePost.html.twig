@@ -2,7 +2,7 @@
   <body>
     <h1>Modifier le post</h1>
     
-  <form method="post" action="index.php?action=update&entity=post&id=<?= $_GET['id']; ?>">
+  <form method="post" action="index.php?action=update&entity=post&id={{ get.id }}">
     <div class="form-group">
       <label for="exampleFormControlInput1">Titre du post:</label>
       <input type="text" class="form-control" name="titlePost" id="titre_post">
@@ -15,7 +15,7 @@
       <label for="exampleFormControlTextarea1">Description :</label>
       <textarea class="form-control" name="descriptionPost" id="description" rows="3"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Créer</button>
+    <button type="submit" class="btn btn-primary">Modifier</button>
   </form>
   
     <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">

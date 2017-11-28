@@ -15,7 +15,6 @@ class PostController extends Controller
             $_SESSION['token'] = $token;
         }
 
-        $this->reorientation($action);
         parent::hydrate($action, $params);
         $post = $this->getModele();
         $coms = $this->checkDependence( $action ,$params);
@@ -79,14 +78,6 @@ class PostController extends Controller
            $dependenceManager =  new $managerClass();
            return $dependenceManager->$dependence['action']($params);
        }
-    }
-    
-    public function reorientation($action)
-    {
-        if($action == 'add')
-        {
-            header('index.php?action=getList&entity=post');
-        }
     }
     
 }

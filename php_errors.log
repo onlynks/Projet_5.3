@@ -9574,3 +9574,19 @@ Stack trace:
 [27-Nov-2017 02:36:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
 [27-Nov-2017 02:36:47 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
 [27-Nov-2017 02:36:47 UTC] PHP   4. Framework\Autoloader::Autoload() /home/ubuntu/workspace/Projet_5.3/Public/index.php:26
+[27-Nov-2017 19:34:47 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[27-Nov-2017 19:34:47 UTC] PHP Stack trace:
+[27-Nov-2017 19:34:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[27-Nov-2017 19:34:47 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[27-Nov-2017 19:34:47 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[27-Nov-2017 19:34:47 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:19
+[27-Nov-2017 19:34:47 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[27-Nov-2017 19:34:47 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
+[27-Nov-2017 19:36:20 UTC] PHP Catchable fatal error:  Argument 1 passed to App\Entity\Post::__construct() must be of the type array, boolean given, called in /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php on line 48 and defined in /home/ubuntu/workspace/Projet_5.3/App/Entity/Post.php on line 17
+[27-Nov-2017 19:36:20 UTC] PHP Stack trace:
+[27-Nov-2017 19:36:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Projet_5.3/Public/index.php:0
+[27-Nov-2017 19:36:20 UTC] PHP   2. Framework\Router::matchAndDispatch() /home/ubuntu/workspace/Projet_5.3/Public/index.php:19
+[27-Nov-2017 19:36:20 UTC] PHP   3. App\Controller\PostController->__construct() /home/ubuntu/workspace/Projet_5.3/Framework/Router.php:26
+[27-Nov-2017 19:36:20 UTC] PHP   4. App\Controller\PostController->getModele() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:19
+[27-Nov-2017 19:36:20 UTC] PHP   5. App\Model\PostManager->read() /home/ubuntu/workspace/Projet_5.3/App/Controller/PostController.php:63
+[27-Nov-2017 19:36:20 UTC] PHP   6. App\Entity\Post->__construct() /home/ubuntu/workspace/Projet_5.3/App/Model/PostManager.php:48
