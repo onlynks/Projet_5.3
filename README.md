@@ -40,4 +40,5 @@ Replace the following numbers by:
     $mail->Port = 4;
     $mail->setFrom('5', 'Mailer');
     $mail->addAddress('6', 'Joe User');
+    
 
