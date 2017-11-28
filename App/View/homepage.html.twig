@@ -1,7 +1,26 @@
 <div class="container">
   <body>
-    <h1>Bienvenu à toutes et à tous!</h1>
     
+  <div class="jumbotron">
+    <h1 class="display-3">Bienvenu à toutes et à tous</h1>
+    <div class="row">
+      <div class="col-md-6 d-flex align-items-center text-center">
+        <p class="lead" style="font-size:1.75rem">C'est avec un immense plaisir que je vous accueil sur mon blog! Cette endroit vous permet d'échanger ensemble librement. Vous pouvez également, si vous le souhaitez, consulter mon CV et pourquoi pas... avoir à faire à mes services!</p>
+      </div> 
+      
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="card " style="width: 20rem;">
+          <img class="card-img-top" src="../Public/Image/image_cv.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Curriculum Vitae</h4>
+            <p class="card-text">Si vous avez des questions à propos de mon CV, le formulaire de contact est là pour ça!</p>
+            <a class="btn btn-primary"href="../Public/Files/CV_Nicolas Garnier.doc" download="CV_Nicolas_Garnier">Télécharger</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4 class="text-center">Des questions? C'est içi!<h4>  
   <form method='post' action='index.php?entity=homePage'>
     <div class="form-group">
       <label for="exampleFormControlInput1">Votre nom:</label>
@@ -17,6 +36,8 @@
     </div>
     <button type="submit" class="btn btn-primary">Envoyer</button>
   </form>
+  
+  
   
   {{ message }}
   
