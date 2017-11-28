@@ -6,9 +6,12 @@
 
 Clone the git repository
 
+[Projet_5.3](https://github.com/onlynks/Projet_5.3)
+
 ## 2nd Stage:
 
 Install Composer
+[Composer]([Projet_5.3](https://getcomposer.org/download/)
 
 ## 3rd Stage:
 
