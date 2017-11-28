@@ -11,7 +11,8 @@ Clone the git repository
 ## 2nd Stage:
 
 Install Composer
-[Composer]([Projet_5.3](https://getcomposer.org/download/)
+
+[Composer](https://getcomposer.org/download/)
 
 ## 3rd Stage:
 
