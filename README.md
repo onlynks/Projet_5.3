@@ -42,4 +42,44 @@ $mail->Port = 4;
 $mail->setFrom('5', 'Mailer');
 $mail->addAddress('6', 'Joe User');
 ```
+## 4th Stage:
 
+Set the Database file
+Go to App/Config/Database.php
+
+```
+public static $dsn ='';
+public static $user ='';
+public static $password ='';
+public static $option = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+```
+
+## 5th Stage
+create post and comment table in your database
+
+com:
+
+```
+CREATE TABLE IF NOT EXISTS `com` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`idPostCom` int(11) NOT NULL,
+`authorCom` varchar(255) NOT NULL,
+`dateCom` datetime NOT NULL,
+`contentCom` text NOT NULL,
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=204
+```
+
+post:
+
+```
+CREATE TABLE IF NOT EXISTS `post` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`datePost` datetime NOT NULL,
+`titlePost` varchar(255) NOT NULL,
+`authorPost` varchar(255) NOT NULL,
+`descriptionPost` text NOT NULL,
+`comsNumber` int(11) NOT NULL,
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=50
+```
