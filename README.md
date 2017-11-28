@@ -32,13 +32,14 @@ Replace the following numbers by:
 5. Your email
 6. Your email
 
-    $mail->Host = '1';
-    $mail->SMTPAuth = true;
-    $mail->Username = '2';
-    $mail->Password = '3';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 4;
-    $mail->setFrom('5', 'Mailer');
-    $mail->addAddress('6', 'Joe User');
-    
+```
+$mail->Host = '1';
+$mail->SMTPAuth = true;
+$mail->Username = '2';
+$mail->Password = '3';
+$mail->SMTPSecure = 'tls';
+$mail->Port = 4;
+$mail->setFrom('5', 'Mailer');
+$mail->addAddress('6', 'Joe User');
+```
 
