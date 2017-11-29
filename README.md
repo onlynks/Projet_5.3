@@ -83,7 +83,6 @@ CREATE TABLE IF NOT EXISTS `post` (
 `titlePost` varchar(255) NOT NULL,
 `authorPost` varchar(255) NOT NULL,
 `descriptionPost` text NOT NULL,
-`comsNumber` int(11) NOT NULL,
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=50
 ```
